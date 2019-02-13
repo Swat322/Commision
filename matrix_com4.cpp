@@ -33,8 +33,7 @@ void Matrix::SynthInput()
 
 void Matrix::InputMatrix()
 {
- cout « "Matrix: " « n « "x" « n « endl;
- cout « "Please, input the elements of matrix:" « endl;
+ 
  int i, j;
  for (i = 0; i < n; i++)
  {
@@ -43,13 +42,15 @@ void Matrix::InputMatrix()
 	 }
 	 cin » M[i][j];
  }
+ cout « "Matrix: " « n « "x" « n « endl;
+ cout « "Please, input the elements of matrix:" « endl
 
 
 }
 
 void Matrix::OutputMatrix()
 {
- cout « "Matrix: " « n « "x" « n « endl;
+ 
  int i, j;
  for (i = 0; i < n; i++)
  {
@@ -57,6 +58,7 @@ void Matrix::OutputMatrix()
 	{
 	}
  }
+ cout « "Matrix: " « n « "x" « n « endl;
   cout « M[i][j] « " ";
   cout « " " « endl;
 }
